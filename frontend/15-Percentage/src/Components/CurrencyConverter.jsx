@@ -128,7 +128,7 @@ function CurrencyConverter() {
       <p>Total Price with Tax: ${totalPriceWithTax.toFixed(3)}</p>
       <p>Discount Amount: ${discountAmount.toFixed(3)}</p>
       <p>Total Price with Discount in Dollars: ${totalPrice.toFixed(3)}</p>
-      <p>Final INR Price: ₹{finalPrice.toFixed(3)}</p>
+      <p id="bold">Final INR Price: ₹{finalPrice.toFixed(3)}</p>
     </div>
   );
 }
